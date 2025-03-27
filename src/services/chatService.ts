@@ -4,7 +4,7 @@ import { ApiRequestPayload, ApiResponseMessage } from '../types/chat';
 class ChatService {
   private apiUrl: string;
   
-  constructor(apiUrl: string = 'http://localhost:4000/easym/message') {
+  constructor(apiUrl: string = 'https://a120-2c0f-2a80-a31-eb10-c8d0-73d8-af61-e02c.ngrok-free.app/easym/message') {
     this.apiUrl = apiUrl;
   }
   

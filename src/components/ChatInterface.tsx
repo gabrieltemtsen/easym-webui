@@ -29,7 +29,7 @@ export default function ChatInterface() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:4000/easym/message', {
+      const response = await fetch('https://a120-2c0f-2a80-a31-eb10-c8d0-73d8-af61-e02c.ngrok-free.app/easym/message', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
